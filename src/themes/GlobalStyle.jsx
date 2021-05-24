@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -39,6 +39,12 @@ const GlobalStyle = createGlobalStyle`
       transition: .4s;
       background-color: var(--main-background);
   }
+`;
+
+export const Container = styled.div`
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
 `;
 
 export default GlobalStyle;
