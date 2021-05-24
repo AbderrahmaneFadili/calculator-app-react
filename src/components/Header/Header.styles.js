@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { useTheme } from "styled-components";
 
 export const HeaderContainer = styled.header`
   width: 100%;
@@ -9,6 +9,11 @@ export const HeaderContainer = styled.header`
 `;
 
 export const HeaderTitle = styled.h2`
-  color: white;
+  color: ${({ theme }) =>
+    theme.theme === "theme3"
+      ? "var(--text-yellow)"
+      : theme.theme === "theme1"
+      ? "var(--text-light)"
+      : "var(--text-dark)"};
   font-size: 2rem;
 `;

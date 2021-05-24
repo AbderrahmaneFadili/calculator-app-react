@@ -1,4 +1,5 @@
 import React from "react";
+import { useTheme } from "styled-components";
 import { HeaderContainer, HeaderTitle } from "./Header.styles";
 
 function Header() {

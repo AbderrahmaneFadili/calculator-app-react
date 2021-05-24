@@ -20,13 +20,13 @@ const GlobalStyle = createGlobalStyle`
       --key-number:${({ theme }) => theme.keyNumber};
       --Key-number-shadow:${({ theme }) => theme.KeyNumberShadow};
       --key-del-reset:${({ theme }) => theme.keyDelReset};
-      --key-del-resetShadow:${({ theme }) => theme.keyDelResetShadow};
+      --key-del-reset-shadow:${({ theme }) => theme.keyDelResetShadow};
       --key-equal:${({ theme }) => theme.keyEqual};
       --key-equal-shadow:${({ theme }) => theme.keyEqualShadow};
       //text
-      --text-number-dark:${({ theme }) => theme.textNumberDark};
-      --text-number-light:${({ theme }) => theme.textNumberLight};
-      --light-yellow:${({ theme }) => theme.lightYellow};
+      --text-dark:${({ theme }) => theme.textDark};
+      --text-light:${({ theme }) => theme.textLight};
+      --text-yellow:${({ theme }) => theme.lightYellow};
   }
 
   html{

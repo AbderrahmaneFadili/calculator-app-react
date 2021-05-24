@@ -1,4 +1,5 @@
 const theme1 = {
+  theme: "theme1",
   //Backgrounds
   mainBackground: "hsl(222, 26%, 31%)",
   toggleBackground: "hsl(223, 31%, 20%)",
@@ -7,16 +8,17 @@ const theme1 = {
   //Keys
   keyNumber: "hsl(30, 25%, 89%)",
   KeyNumberShadow: "hsl(28, 16%, 65%)",
-  keyDelReset: "hsl(224, 28%, 35%)",
+  keyDelReset: "hsl(225, 21%, 49%)",
   keyDelResetShadow: "hsl(224, 28%, 35%)",
   keyEqual: "hsl(6, 63%, 50%)",
   keyEqualShadow: "hsl(6, 70%, 34%)",
   //Text
-  textNumberDark: "hsl(221, 14%, 31%)",
-  textNumberLight: "hsl(0, 0, 100%)",
+  textDark: "hsl(60, 10%, 19%)",
+  textLight: "white",
 };
 
 const theme2 = {
+  theme: "theme2",
   //Backgrounds
   mainBackground: "hsl(0, 0%, 90%)",
   toggleBackground: "hsl(0, 5%, 81%)",
@@ -24,17 +26,18 @@ const theme2 = {
   screenBackground: "hsl(0, 0%, 93%)",
   //Keys
   keyNumber: "hsl(45, 7%, 89%)",
-  KeyNumberShadow: "hsl(45, 7%, 89%)",
-  keyDelReset: "hsl(25, 98%, 40%)",
-  keyDelResetShadow: "hsl(25, 99%, 27%)",
-  keyEqual: "hsl(185, 42%, 37%)",
-  keyEqualShadow: "hsl(185, 58%, 25%)",
+  KeyNumberShadow: "hsl(28, 16%, 65%)",
+  keyDelReset: "hsl(185, 42%, 37%)",
+  keyDelResetShadow: "hsl(185, 58%, 25%)",
+  keyEqual: "hsl(25, 98%, 40%) ",
+  keyEqualShadow: "hsl(25, 99%, 27%) ",
   //Text
-  textNumberDark: "hsl(60, 10%, 19%)",
-  textNumberLight: "hsl(0, 0, 100%)",
+  textDark: "hsl(60, 10%, 19%)",
+  textLight: "white",
 };
 
 const theme3 = {
+  theme: "theme3",
   //Backgrounds
   mainBackground: "hsl(268, 75%, 9%)",
   toggleBackground: "hsl(268, 71%, 12%)",
@@ -48,9 +51,9 @@ const theme3 = {
   keyEqual: "hsl(176, 100%, 44%)",
   keyEqualShadow: "hsl(177, 92%, 70%)",
   //Text
-  textNumberDark: "hsl(198, 20%, 13%)",
-  textNumberLight: "hsl(0, 0, 100%)",
+  textDark: "hsl(198, 20%, 13%)",
   lightYellow: "hsl(52, 100%, 62%)",
+  text: "white",
 };
 
 export { theme1, theme2, theme3 };
