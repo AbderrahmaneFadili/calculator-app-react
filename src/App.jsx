@@ -6,7 +6,7 @@ import { Container } from "./themes/GlobalStyle";
 import Calculator from "./components/Calculator/Calculator";
 const App = () => {
   return (
-    <ThemeProvider theme={theme3}>
+    <ThemeProvider theme={theme1}>
       <>
         <GlobalStyle />
         <Container>
