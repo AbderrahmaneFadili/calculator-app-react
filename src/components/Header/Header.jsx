@@ -1,10 +1,12 @@
 import React from "react";
+import { HeaderContainer, HeaderTitle } from "./Header.styles";
 
 function Header() {
   return (
-    <div>
-      <h1>Header</h1>
-    </div>
+    <HeaderContainer>
+      <HeaderTitle>calc</HeaderTitle>
+      <h2>Toggle</h2>
+    </HeaderContainer>
   );
 }
 

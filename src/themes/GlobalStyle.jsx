@@ -2,8 +2,6 @@ import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
-  @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
-
   *,*::after,*::before{
      padding: 0;
      margin: 0;
@@ -17,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
       --main-background:${({ theme }) => theme.mainBackground};
       --toggle-background:${({ theme }) => theme.toggleBackground};
       --keypad-background:${({ theme }) => theme.keypadBackground};
-      --screen-Background:${({ theme }) => theme.screenBackground};
+      --screen-background:${({ theme }) => theme.screenBackground};
       //keys
       --key-number:${({ theme }) => theme.keyNumber};
       --Key-number-shadow:${({ theme }) => theme.KeyNumberShadow};
