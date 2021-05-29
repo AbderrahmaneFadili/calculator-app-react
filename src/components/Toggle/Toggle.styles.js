@@ -39,14 +39,18 @@ export const ToggleCirleContainer = styled.div`
   align-self: center;
   margin-top: 6px;
   padding: 0.22rem;
+  position: relative;
 `;
 
 export const Circle = styled.div`
-  width: 30px;
-  height: 100%;
+  width: 25px;
+  height: 25px;
   background-color: var(--key-equal);
   border-radius: 100%;
   transition: all 0.4s;
+  top: 5px;
+  left: 5px;
+  position: absolute;
   transform: ${({ position }) => "translateX(" + position + "px)"};
 `;
 
