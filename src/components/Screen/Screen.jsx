@@ -1,12 +1,12 @@
 import React from "react";
-import { useTheme } from "styled-components";
+import { useSelector } from "react-redux";
 import { ScreenWrapper, ScreenInput } from "./Screen.styles";
 
 const Screen = () => {
-  const currentTheme = useTheme();
+  const value = useSelector((state) => state.calculatorReducer.value);
   return (
     <ScreenWrapper>
-      <ScreenInput dir="rtl" currentTheme={currentTheme} />
+      <ScreenInput dir="rtl" onChange={() => null} value={value} />
     </ScreenWrapper>
   );
 };
